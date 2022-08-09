@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nasi Uduk Bu Lina</title>
     <link rel="icon" href="img/faicon.png" />
+
+    <link rel="stylesheet" href="css/bootstrap5.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <link rel="stylesheet" href="css/universal.css" />
     <link rel="stylesheet" href="css/home.css" />
     <script
       src="https://kit.fontawesome.com/fb61b34d64.js"
@@ -29,10 +33,17 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="css/information.css" />
   </head>
   <body>
     <!-- start:: navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-utama fixed-top">
+    <section class="information alert p-3 alert-warning m-0">
+      <p class="m-0 font-weight-bold">
+        <i class="fa-solid fa-circle-exclamation mr-2"></i> Kami Menerima
+        Catering
+      </p>
+    </section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-utama sticky-top">
       <div class="container">
         <a class="navbar-brand" href="#hero">
           <img src="img/logo2.png" width="120" alt="" />
@@ -75,7 +86,7 @@
     <!-- end:: navbar -->
 
     <!-- start::section hero -->
-    <section id="hero" class="bg-utama mt-5">
+    <section id="hero" class="bg-utama">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mt-5">
@@ -86,9 +97,11 @@
               class="img-fluid"
             />
           </div>
-          <div class="col-lg-6 align-self-center mt-5">
+          <div class="col-lg-6 align-self-center mt-2 mt-lg-5">
+            <h4 class="text-center m-0">Buka : Senin - Sabtu</h4>
+            <h6 class="text-center">5:30 Pagi - 09:00 Pagi</h6>
             <a
-              class="btn btn-primary shadow-sm col-12 mt-4"
+              class="btn btn-primary shadow-sm col-12 mt-2 mt-lg-0"
               href="home.html"
               role="button"
               ><div class="row">
@@ -100,7 +113,7 @@
             >
             <a
               class="btn btn-primary shadow-sm col-12 mt-4"
-              href="https://www.instagram.com/nasiuduk_bu_lina/"
+              href="https://www.instagram.com/nasiuduk_bulina/"
               role="button"
               ><div class="row">
                 <div class="col-5 text-right pr-2">
@@ -135,15 +148,44 @@
         </div>
       </div>
     </section>
-
     <!-- end::section hero -->
+
+    <!-- Start:: Online Order -->
+    <section id="online-order" class="bg-utama pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="m-0 text-center">Online Order</h1>
+            <p class="mt-1">Order lebih mudah dan praktis</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <a
+            href="https://gofood.link/a/ANhiiyY"
+            class="col-sm-6 col-md-6 col-lg-4 text-decoration-none"
+          >
+            <div class="card-layanan text-center position-relative">
+              <img
+                class="w-50 start-custom"
+                src="img/gofood.svg"
+                alt="shopee"
+              />
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End:: Online Order -->
 
     <!-- first::Section slider -->
     <section class="bg-utama pt-5 pb-5">
       <h1 class="text-center mb-3">Menu Kami</h1>
       <div class="container">
-        <div class="row">
-          <div class="owl-carousel owl-theme">
+        <div class="row pt-5">
+          <div class="owl-carousel">
             <div class="item mb-4">
               <a
                 href="detail-product.html"
@@ -214,7 +256,7 @@
     </section>
     <!-- end::section slider -->
 
-    <footer class="bg-dark pt-5 pb-5">
+    <footer class="bg-dark pt-5 pb-4">
       <div class="container pt-2 text-white">
         <div class="row">
           <div class="col-md-12 col-lg-4 mb-md-3 mb-4">
@@ -232,6 +274,17 @@
             <h3 class="font-weight-bold mb-0">Nasi Uduk Bu lina</h3>
             <h4>Hubungi kami</h4>
             <p>Jakarta barat</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center mt-3">
+            <i class="fa fa-copyright" aria-hidden="true"
+              >Anaknya :
+              <a href="http://google.com" class="text-decoration-none">
+                Nirwan Maulana Mustafa</a
+              >
+              2022</i
+            >
           </div>
         </div>
       </div>
@@ -270,7 +323,7 @@
         margin: 10,
         lazyLoad: true,
         URLhashListener: true,
-        autoplayHoverPause: true,
+        // autoplayHoverPause: true,
         startPosition: "URLHash",
         responsive: {
           0: {
