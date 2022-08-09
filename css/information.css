@@ -1,0 +1,49 @@
+.information p {
+  text-align: center;
+  font-size: 12px;
+}
+#online-order p {
+  font-size: 14px;
+  text-align: center;
+}
+.card-order {
+  width: 100%;
+  height: 313px;
+  border-radius: 8px;
+  background-color: var(--white);
+  padding: 50px 28px 70px 28px;
+  box-shadow: 0 0 7px 3px rgb(0, 0, 0, 0.05);
+  margin-top: 52px;
+  transition: ease-in-out 0.2s all;
+}
+
+/* Section Layanan */
+
+.card-layanan {
+  width: 100%;
+  height: 260px;
+  border-radius: 8px;
+  background-color: var(--white);
+  padding: 50px 28px 70px 28px;
+  box-shadow: 0 0 7px 3px rgb(0, 0, 0, 0.05);
+  margin-top: 24px;
+  transition: ease-in-out 0.2s all;
+}
+
+.card-layanan:hover {
+  width: 100%;
+  height: 260px;
+  border-radius: 8px;
+  background-color: var(--pr-secondary);
+  padding: 50px 28px 70px 28px;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.05);
+  margin-top: 24px;
+  transition: ease-in-out 0.2s all;
+}
+
+.start-custom {
+  left: 122px;
+}
+.card-layanan .w-25 {
+  width: 40% !important;
+}

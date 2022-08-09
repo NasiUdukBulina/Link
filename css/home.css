@@ -1,12 +1,9 @@
-body {
-  font-family: "Cambria", sans-serif;
-}
 .bg-utama {
-  background: rgb(255, 217, 0);
+  background: var(--pr-color);
 }
 
 .btn-primary {
-  background: #ff9900;
+  background: var(--btn-link);
   border: none;
   padding: 15px 40px;
   font-size: 16px;
