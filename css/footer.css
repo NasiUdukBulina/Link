@@ -1,0 +1,53 @@
+/* Footer */
+#footer {
+  background-color: var(--primary-orange3);
+  padding: 36px 0;
+}
+
+.custom-alamat-footer {
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 600px) {
+  .footer-row {
+    padding: 32px !important;
+  }
+  .deskripsi-footer {
+    font-family: "poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+.footer-row {
+  padding: 0px;
+}
+
+.header-footer-text {
+  font-family: "poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.copyright {
+  padding-top: 52px;
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--white);
+  text-align: center;
+  transition: ease-in-out 0.2s all;
+}
+a.copyright:hover {
+  font-size: 15px;
+  text-decoration: none;
+  transition: ease-in-out 0.2s all;
+}
+
+.deskripsi-footer {
+  font-family: "poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.deskripsi-footer:hover {
+  color: #fa8700;
+}

@@ -1,0 +1,38 @@
+/* ONLINE Order */
+#online-order {
+  padding-top: 72px;
+  padding-bottom: 72px;
+  background-color: var(--background);
+}
+
+
+/* Section Layanan */
+
+.card-layanan {
+  width: 100%;
+  height: 260px;
+  border-radius: 8px;
+  background-color: var(--white);
+  padding: 50px 28px 70px 28px;
+  box-shadow: 0 0 7px 3px rgb(0, 0, 0, 0.05);
+  margin-top: 24px;
+  /* overflow: auto; */
+  transition: ease-in-out 0.2s all;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card-layanan:hover {
+  width: 100%;
+  height: 260px;
+  border-radius: 8px;
+  background-color: var(--cream);
+  padding: 50px 28px 70px 28px;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.05);
+  margin-top: 24px;
+  transition: ease-in-out 0.2s all;
+}
+
+.card-layanan .w-25 {
+  width: 40% !important;
+}
