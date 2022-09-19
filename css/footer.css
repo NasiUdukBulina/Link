@@ -12,7 +12,7 @@
   .footer-row {
     padding: 32px !important;
   }
-  .deskripsi-footer {
+  .description-footer {
     font-family: "poppins", sans-serif;
     font-size: 12px;
     font-weight: 500;
@@ -58,7 +58,7 @@ a.copyright:hover {
   color: var(--white);
 }
 
-.deskripsi-footer {
+.description-footer {
   font-family: "poppins", sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -66,7 +66,7 @@ a.copyright:hover {
   position: relative;
   color: var(--white);
 }
-.deskripsi-footer:after {
+.description-footer:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -79,7 +79,7 @@ a.copyright:hover {
   transform-origin: bottom right;
   transition: transform 0.4s ease-out;
 }
-.deskripsi-footer:hover:after {
+.description-footer:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
