@@ -1,0 +1,29 @@
+/* Hero */
+#hero {
+  background-color: var(--background);
+}
+
+.button-link-custom {
+  background-color: var(--primary-orange2);
+  color: white;
+}
+.circle-icon {
+  color: var(--blue);
+  transition: ease-in-out 0.2s all;
+}
+
+.circle-icon #icon-1 {
+  fill: var(--white);
+  transition: ease-in-out 0.2s all;
+}
+.button-link-custom:hover #icon-1 {
+  fill: var(--primary-orange2);
+  transition: ease-in-out 0.2s all;
+}
+.button-link-custom:hover {
+  background-color: var(--white);
+  color: var(--primary-orange2) !important;
+}
+.button-shadow-text {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.12);
+}
