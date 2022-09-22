@@ -1,4 +1,3 @@
-// Owl Carousel
 $(".owl-carousel").owlCarousel({
   loop: false,
   center: true,
@@ -18,9 +17,4 @@ $(".owl-carousel").owlCarousel({
       items: 4,
     },
   },
-});
-
-// Loading Load
-$(window).on("load", function () {
-  $(".loader-container").fadeOut(2000);
 });
