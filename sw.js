@@ -6,7 +6,7 @@ self.addEventListener("install", (event) => {
       // Add all the assets in the array to the 'Nasi-Uduk-Cache-v2'
       // `Cache` instance for later use.
       return cache.addAll([
-        "/",
+        "./",
         "./index.html",
 
         "./css/Home.css",
@@ -77,7 +77,7 @@ self.addEventListener("fetch", async (event) => {
 
 // Assets to precache
 const precachedAssets = [
-  "/",
+  "./",
   "./index.html",
   "./404.html",
   "./css/Home.css",
