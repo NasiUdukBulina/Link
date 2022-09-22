@@ -861,13 +861,29 @@
     ></script>
     <!-- End::Cdn OwlCarousel2 -->
     <!-- init owl carousel -->
-    <script src="/js/owl-carousel-slider.js"></script>
+    <script
+      rel="preload"
+      as="script"
+      crossorigin="anonymous"
+      src="/js/owl-carousel-slider.js"
+    ></script>
+
     <script>
       $(window).on("load", function () {
         $(".loader-container").fadeOut(2000);
       });
     </script>
-    <script src="/main.js"></script>
-    <script src="/sw.js"></script>
+    <script
+      rel="preload"
+      as="script"
+      crossorigin="anonymous"
+      src="/main.js"
+    ></script>
+    <script
+      rel="preload"
+      as="script"
+      crossorigin="anonymous"
+      src="/sw.js"
+    ></script>
   </body>
 </html>
