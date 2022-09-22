@@ -9,6 +9,7 @@
     />
 
     <title>Nasi Uduk Bu Lina - Link</title>
+    <link rel="canonical" href="https://{nasiudukbulina}.github.io/{Link}/" />
     <meta name="theme-color" content="#ffb800" />
     <meta
       name="description"
@@ -867,6 +868,18 @@
       crossorigin="anonymous"
       src="./js/owl-carousel-slider.js"
     ></script>
+
+    <script>
+      // register ServiceWorker, remember to use absolute path!
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register("/{Link}/sw.js", {
+          scope: "/{Link}/",
+        });
+      }
+
+      // --- Application code here ---
+    </script>
+
     <script
       rel="preload"
       as="script"
