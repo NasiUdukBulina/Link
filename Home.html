@@ -24,13 +24,12 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap"
     rel="stylesheet">
-
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="white" />
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black" />
 
   <link rel="icon" type="image/png" href="assets/assets-img/faicon.png" />
   <link rel="apple-touch-icon" href="assets/assets-img/faicon.png">
-  <!-- <link rel="stylesheet" href="css/style.css" /> --> 
+  <!-- <link rel="stylesheet" href="css/style.css" /> -->
   <link rel="stylesheet" href="css/ScrollMouse.css" />
   <link rel="stylesheet" href="css/wavestyle.css" />
   <link rel="stylesheet" href="css/Home.css" />
@@ -44,6 +43,8 @@
   <link rel="stylesheet" href="css/hero.css" />
   <link rel="stylesheet" href="css/layanan-kami.css" />
   <link rel="stylesheet" href="css/menu-paket.css" />
+  <link rel="stylesheet" href="css/PesanSekarang.css" />
+  <link rel="stylesheet" href="css/customer-review.css" />
   <link rel="stylesheet" href="css/footer.css" />
 
   <!-- Owl Caraousel Css -->
@@ -58,7 +59,6 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Data Aos CSS-->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
 
 </head>
 
@@ -87,7 +87,7 @@
       <div class="collapse navbar-collapse Poppins bg-lg-none mt-2 mt-lg-0 nav-isi-custom" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto text-center">
           <li class="nav-item active">
-            <a class="nav-link p-0 p-lg-2 text-black1" href="#hero">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link p-0 p-lg-2 text-black1" href="Home.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link p-0 p-lg-2 text-black2" href="#">Product</a>
@@ -133,7 +133,7 @@
       </ol>
 
       <div class="carousel-inner">
-        <div class="carousel-item active" style="background-image: url('assets/test2.jpg')">
+        <div class="carousel-item active" style="background-image: url('assets/test2.jpg');object-fit: cover;">
           <div class="container">
             <h2 class="m-0">nirwan</h2>
             <p>nirwan</p>
@@ -213,11 +213,11 @@
   <!-- End :: Hero -->
 
   <!-- Start::Layanan Kami -->
-  <section id="layanan-kami" class=" pb-5">
+  <section id="layanan-kami" class=" pb-5 hiddenover">
     <div class="container">
       <div class="row text-center playdisplay">
         <div class="col-12 pamplate mb-3">Layanan Kami</div>
-        <!-- <p class="col-12 Poppins mt-3 isi-description">
+        <!-- <p class="col-12 Poppins mt-3 isi-deskripsi">
             <strong> Nasi Uduk Bu Lina, </strong> Juga sudah tersedia di
             beberapa mitra, untuk memudahkan anda yang ingin memesan secara
             online
@@ -227,8 +227,7 @@
       <div class="container-fluid mt-2">
         <div class="row d-flex justify-content-center card-layanan Poppins">
 
-          <div
-            class="col-sm-6 col-md-6 col-lg-4 text-decoration-none card-hover m-3 mb-3 ">
+          <div class="col-sm-6 col-md-6 col-lg-4 text-decoration-none m-3 mb-3 card-hover" data-aos="fade-right">
             <div class="text-center text-card-layanan">
               <svg width="76" height="76" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle id="circle-white" cx="27" cy="27" r="27" />
@@ -251,8 +250,7 @@
             </div>
           </div>
 
-          <div
-            class="col-sm-6 col-md-6 col-lg-4 text-decoration-none card-hover m-3 mb-3 ">
+          <div class="col-sm-6 col-md-6 col-lg-4 text-decoration-none m-3 mb-3 card-hover" data-aos="fade-left">
             <div class="text-center text-card-layanan">
               <svg width="76" height="76" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle id="circle-white" cx="27" cy="27" r="27" />
@@ -266,8 +264,7 @@
             </div>
           </div>
 
-          <div
-            class="col-sm-6 col-md-6 col-lg-4 text-decoration-none card-hover  m-3 mb-3 ">
+          <div class="col-sm-6 col-md-6 col-lg-4 text-decoration-none m-3 mb-3 card-hover " data-aos="fade-right">
             <div class="text-center text-card-layanan">
               <svg width="76" height="76" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle id="circle-white" cx="27" cy="27" r="27" />
@@ -291,8 +288,7 @@
             </div>
           </div>
 
-          <div
-            class="col-sm-6 col-md-6 col-lg-4 text-decoration-none card-hover  m-3 mb-3 ">
+          <div class="col-sm-6 col-md-6 col-lg-4 text-decoration-none m-3 mb-3 card-hover " data-aos="fade-left">
             <div class="text-center text-card-layanan">
               <svg width="76" height="76" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle id="circle-white" cx="27" cy="27" r="27" />
@@ -401,8 +397,7 @@
             </div>
           </div>
 
-          <div
-            class="col-sm-6 col-md-6 col-lg-4 text-decoration-none card-hover  m-3 mb-3 ">
+          <div class="col-sm-6 col-md-6 col-lg-4 text-decoration-none m-3 mb-3 card-hover " data-aos="fade-up">
             <div class="text-center text-card-layanan">
               <svg width="76" height="76" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -606,35 +601,36 @@
   <!-- End::Layanan Kami -->
 
   <!-- Start::Menu Paket -->
-  <section id="menu-paket" class=" pb-5">
+  <section id="menu-paket" class=" pb-5 hiddenover">
     <div class="container">
       <div class="row text-center playdisplay">
-        <div class="col-12 pamplate mb-3">Menu Paket</div>
-        <p class="col-12 Poppins mt-3 isi-description">
-          <strong> Nasi Uduk Bu Lina, </strong> Juga berbagai macam paket untuk berbagai acara seperti pesta ulang tahun, gathering familiy, dll
+        <div class="col-12 pamplate">Menu Paket</div>
+        <p class="col-12 Poppins mt-3 isi-deskripsi">
+          <strong> Nasi Uduk Bu Lina, </strong> Juga berbagai macam paket untuk berbagai acara seperti pesta ulang
+          tahun, gathering familiy, dll
         </p>
       </div>
 
-      <div class="container-fluid mt-2 position-relative">
+      <div class="container-fluid mt-2 position-relative" data-aos="fade-right">
         <div class="row d-flex justify-content-around position-relative Poppins justify-content-custom">
           <a href="#" class="d-flex position-relative card-wrapper m-2">
             <img src="assets/tumpeng.png" class=" rounded align-self-center position-relative card-menu-image" alt="">
-            <div class="position-absolute overlay-black d-flex justify-content-center"> 
+            <div class="position-absolute overlay-black d-flex justify-content-center">
               <div class="card-wrapper-text ">
                 <h6 class="font-custom-paket text-capitalize">Paket Nasi Box</h6>
               </div>
             </div>
           </a>
 
-          <a href="#" class="d-flex position-relative card-wrapper m-2">
+          <a href="#" class="d-flex position-relative card-wrapper m-2" data-aos="fade-left" data-aos-delay="100">
             <img src="assets/tumpeng.png" class=" rounded align-self-center position-relative card-menu-image" alt="">
-            <div class="position-absolute overlay-black d-flex justify-content-center"> 
+            <div class="position-absolute overlay-black d-flex justify-content-center">
               <div class="card-wrapper-text ">
                 <h6 class="font-custom-paket text-capitalize">Paket Nasi Box</h6>
               </div>
             </div>
           </a>
-          
+
         </div>
       </div>
   </section>
@@ -648,8 +644,12 @@
       </div>
     </div>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.817571115972!2d106.79035661489476!3d-6.155182295543572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7992ce9662b%3A0x9599ba06a73df8ce!2sNasi%20Uduk%20Bu%20Lina!5e0!3m2!1sid!2sid!4v1663515616348!5m2!1sid!2sid" class="w-100" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.817571115972!2d106.79035661489476!3d-6.155182295543572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7992ce9662b%3A0x9599ba06a73df8ce!2sNasi%20Uduk%20Bu%20Lina!5e0!3m2!1sid!2sid!4v1663515616348!5m2!1sid!2sid"
+      class="w-100" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+
   </section>
   <!-- End::Lokasi -->
 
@@ -659,38 +659,36 @@
       <div class="row text-center playdisplay">
         <div class="col-12 pamplate mb-4 text-capitalize">Pesan Sekarang</div>
       </div>
- 
+
       <div class="row">
         <div class="col-12 Poppins">
-          <button class="btn btn-success w-100 text-capitalize font-weight-bold p-2">Pesan Via Whatsapp</button>
+          <a href="https://wa.me/+6285717787750?text=Halo saya ingin pesan nasi uduk"
+            class="btn btn-success w-100 text-capitalize font-weight-bold p-2">Pesan Via Whatsapp</a>
         </div>
       </div>
 
       <div class="row mt-3">
         <div class="container mt-3">
-          <div class="row d-flex justify-content-around card-layanan-kami Poppins">
-  
-            <a href="https://www.google.com"
-              class=" text-decoration-none d-flex card-hover-layanan mb-4">
+          <div class="row d-flex justify-content-around card-pesan-sekarang Poppins">
+
+            <a href="https://www.google.com" class=" text-decoration-none d-flex card-hover-layanan mb-4">
               <div class="text-center text-card-layanan align-self-center w-100">
                 <img src="assets/mitra/ShopeeFood.svg" alt="" class="w-100 p-3">
               </div>
             </a>
-            
-            <a href="https://www.google.com"
-              class=" text-decoration-none d-flex card-hover-layanan mb-4 ">
+
+            <a href="https://www.google.com" class=" text-decoration-none d-flex card-hover-layanan mb-4 ">
               <div class="text-center text-card-layanan align-self-center w-100">
                 <img src="assets/mitra/GoFood.svg" alt="" class="w-100 p-3">
               </div>
             </a>
-            
-            <a href="https://www.google.com"
-              class=" text-decoration-none d-flex card-hover-layanan mb-4 ">
+
+            <a href="https://www.google.com" class=" text-decoration-none d-flex card-hover-layanan mb-4 ">
               <div class="text-center text-card-layanan align-self-center w-100">
                 <img src="assets/mitra/Grab.svg" alt="" class="w-100 p-3">
               </div>
             </a>
-            
+
 
           </div>
         </div>
@@ -698,6 +696,72 @@
     </div>
   </section>
   <!-- End::Pesan Sekarang -->
+
+  <!-- Start:: Review-Customer -->
+  <section id="ReviewCustomer">
+    <div class="container pt-0 pt-lg-2">
+      <div class="row text-center">
+        <div class="col-12 playdisplay pamplate">Review Customer</div>
+        <!-- <p class="col-12 Poppins mt-3 isi-deskripsi">
+        <strong> Nasi Uduk Bu Lina, </strong> Juga menggunakan bahan-bahan
+        brand ternama agar menjaga mutu dan kualitasnya
+      </p> -->
+      </div>
+
+      <div class="row d-flex warna mt-4 menu-scroll">
+        <div class="d-flex mx-auto justify-content-between Poppins pb-2">
+
+          <div class="d-flex ml-5 ml-lg-0 position-relative cardReview text-dark" data-aos="fade-up" data-aos-delay="100">
+            <div class="align-items-center text-center padingcustom">
+              <img loading="lazy" class="img-riview" src="assets/nirwan.jpg" alt="" />
+              <div class="m-0 p-0 font-weight-bold mt-2">Entang</div>
+              <div class="">
+              <div class="m-0 p-0 s-h7">satpam</div>
+              </div>
+              <div class="m-0 p-0 pp4 mt-2 ">Lorem ipsumLorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna..</div>
+            </div>
+          </div>
+
+          <div class="d-flex ml-lg-0 position-relative cardReview text-dark" data-aos="fade-up" data-aos-delay="100">
+            <div class="align-items-center text-center padingcustom">
+              <img loading="lazy" class="img-riview" src="assets/nirwan.jpg" alt="" />
+              <div class="m-0 p-0 font-weight-bold mt-2">Entang</div>
+              <div class="m-0 p-0 s-h7 p-2">satpam</div>
+              <div class="m-0 p-0 pp4 mt-2 ">Lorem ipsumLorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna..</div>
+            </div>
+          </div>
+          <div class="d-flex ml-lg-0 position-relative cardReview text-dark" data-aos="fade-up" data-aos-delay="100">
+            <div class="align-items-center text-center padingcustom">
+              <img loading="lazy" class="img-riview" src="assets/nirwan.jpg" alt="" />
+              <div class="m-0 p-0 font-weight-bold mt-2">Entang</div>
+              <div class="m-0 p-0 s-h7">satpam</div>
+              <div class="m-0 p-0 pp4 mt-2 ">Lorem ipsumLorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna..</div>
+            </div>
+          </div>
+          <div class="d-flex ml-lg-0 position-relative cardReview text-dark" data-aos="fade-up" data-aos-delay="100">
+            <div class="align-items-center text-center padingcustom">
+              <img loading="lazy" class="img-riview" src="assets/nirwan.jpg" alt="" />
+              <div class="m-0 p-0 font-weight-bold mt-2">Entang</div>
+              <div class="m-0 p-0 s-h7">satpam</div>
+              <div class="m-0 p-0 pp4 mt-2 ">Lorem ipsumLorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna..</div>
+            </div>
+          </div>
+          <div class="d-flex ml-lg-0 position-relative cardReview text-dark mr-5 mr-lg-0" data-aos="fade-up" data-aos-delay="100">
+            <div class="align-items-center text-center padingcustom">
+              <img loading="lazy" class="img-riview" src="assets/nirwan.jpg" alt="" />
+              <div class="m-0 p-0 font-weight-bold mt-2">Entang</div>
+              <div class="m-0 p-0 s-h7">satpam</div>
+              <div class="m-0 p-0 pp4 mt-2 ">Lorem ipsumLorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna..</div>
+            </div>
+          </div>
+
+         
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End:: Review-Customer -->
+
 
   <!-- Start::Footer -->
   <section id="footer">
