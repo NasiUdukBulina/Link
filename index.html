@@ -826,7 +826,7 @@
       rel="preload"
       as="script"
       crossorigin="anonymous"
-      src="js/bootstrap.js"
+      src="./js/bootstrap.js"
     ></script>
     <!-- End::Navbar Js -->
 
@@ -865,20 +865,26 @@
       rel="preload"
       as="script"
       crossorigin="anonymous"
-      src="/js/owl-carousel-slider.js"
+      src="./js/owl-carousel-slider.js"
     ></script>
+
+    <script>
+      $(window).on("load", function () {
+        $(".loader-container").fadeOut(2000);
+      });
+    </script>
 
     <script
       rel="preload"
       as="script"
       crossorigin="anonymous"
-      src="/main.js"
+      src="./main.js"
     ></script>
     <script
       rel="preload"
       as="script"
       crossorigin="anonymous"
-      src="/sw.js"
+      src="./sw.js"
     ></script>
   </body>
 </html>
