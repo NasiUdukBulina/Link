@@ -19,6 +19,7 @@
   border-radius: 20px 20px 6px 6px;
   background-color: var(--white);
   overflow: auto;
+  overflow-y: hidden;
 }
 
 .padingcustom {

@@ -5,11 +5,11 @@
   background-color: var(--background);
 }
 
-
 /* Section Layanan */
 
 .card-layanan {
   width: 100%;
+  aspect-ratio: 1/1;
   height: 260px;
   border-radius: 8px;
   background-color: var(--white);

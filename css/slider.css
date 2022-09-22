@@ -6,8 +6,7 @@
     margin: 0 !important;
   }
   .carousel-indicators li {
-    height: 60px !important;
-    width: 60px !important;
+    aspect-ratio: 1/1;
     border-radius: 50%;
     bottom: -36px !important;
     margin: 0 !important;
@@ -19,9 +18,11 @@
 }
 
 #slider-wrap .carousel-item {
-  min-height: 60vh;
+  width: 100%;
+  aspect-ratio: 16 / 8;
   background-repeat: no-repeat;
   background-size: cover;
+  object-fit: cover;
   background-position: center;
   /* position: relative; */
   /* z-index: 1; */
