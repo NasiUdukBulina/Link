@@ -47,7 +47,7 @@
       media="(prefers-color-scheme: dark)"
       content="black"
     />
-    <link rel="manifest" href="manifest.json" />
+    <link rel="manifest" href="./manifest.json" />
 
     <link rel="icon" type="image/png" href="assets/assets-img/faicon.png" />
     <link rel="apple-touch-icon" href="assets/assets-img/faicon.png" />
@@ -93,11 +93,11 @@
 
   <body class="position-relative">
     <!--  -->
-    <div class="loader-container">
-      <div class="loader"></div>
+    <!-- <div class="loader-container">
+      <div class="loader"></div> -->
 
-      <!-- Start::Wave Style -->
-      <div class="custom-shape-divider-bottom-1663483879">
+    <!-- Start::Wave Style -->
+    <!-- <div class="custom-shape-divider-bottom-1663483879">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -119,9 +119,9 @@
             class="shape-fill"
           ></path>
         </svg>
-      </div>
-      <!-- End::Wave Style -->
-    </div>
+      </div> -->
+    <!-- End::Wave Style -->
+    <!-- </div> -->
 
     <!--  -->
 
@@ -869,33 +869,24 @@
       src="./js/owl-carousel-slider.js"
     ></script>
 
-    <script>
-      // register ServiceWorker, remember to use absolute path!
-      if (navigator.serviceWorker) {
-        navigator.serviceWorker.register("/{Link}/sw.js", {
-          scope: "/{Link}/",
-        });
-      }
-
-      // --- Application code here ---
-    </script>
-
     <script
       rel="preload"
       as="script"
       crossorigin="anonymous"
       src="./main.js"
     ></script>
+
     <script
       rel="preload"
       as="script"
       crossorigin="anonymous"
       src="./sw.js"
     ></script>
-    <script rel="preload" as="script" crossorigin="anonymous">
+
+    <!-- <script rel="preload" as="script" crossorigin="anonymous">
       $(window).on("load", function () {
         $(".loader-container").fadeOut(2000);
       });
-    </script>
+    </script> -->
   </body>
 </html>
