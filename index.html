@@ -36,6 +36,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
+      defer
     />
     <meta
       name="theme-color"
@@ -92,7 +93,7 @@
   </head>
 
   <body class="position-relative">
-    <!--  -->
+    <!-- Start::Loader -->
     <div class="loader-container">
       <div class="loader"></div>
 
@@ -122,9 +123,9 @@
       </div>
       <!-- End::Wave Style -->
     </div>
+    <!-- End::Loader -->
 
-    <!--  -->
-
+    <!-- Start::Information -->
     <section class="informasi text-center text-capitalize">
       <div class="row" data-aos="fade-down">
         <div class="col-12 p-0">
@@ -138,6 +139,7 @@
         </div>
       </div>
     </section>
+    <!-- End::Information -->
 
     <!-- Start Nav -->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top color-bg">
@@ -147,6 +149,7 @@
             loading="lazy"
             src="assets/assets-img/Nasi-Uduk-Bu-Lina.svg"
             width="98"
+            height="100%"
             alt="Nasi+Uduk+Bulina+Logo"
           />
         </a>
@@ -173,7 +176,9 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link p-0 p-lg-2 text-black2" href="#">Product</a>
+              <a class="nav-link p-0 p-lg-2 text-black2" href="/product.html"
+                >Product</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link p-0 p-lg-2 text-black2" href="#">Contact</a>
@@ -221,10 +226,10 @@
               data-aos="fade-down"
               data-aos-delay="250"
             />
-            <h5 class="text-center font-weight-bold m-0 mt-3 mt-lg-0">
+            <h5 class="m-0 mt-3 mt-lg-0 text-center font-weight-bold font16">
               Buka : Senin - Sabtu
             </h5>
-            <h6 class="text-center s-h6">5:30 Pagi - 09:00 Pagi</h6>
+            <h6 class="text-center font16 weight700">5:30 Pagi - 09:00 Pagi</h6>
           </div>
 
           <div
@@ -254,7 +259,7 @@
                   </svg>
                 </div>
                 <div
-                  class="col-6 text-left pl-0 ml-3 s-h6 d-flex align-items-center"
+                  class="col-6 text-left pl-0 ml-3 font16 weight700 d-flex align-items-center"
                 >
                   Website
                 </div>
@@ -283,7 +288,7 @@
                   </svg>
                 </div>
                 <div
-                  class="col-6 text-left pl-0 ml-3 s-h6 d-flex align-items-center"
+                  class="col-6 text-left pl-0 ml-3 font16 weight700 d-flex align-items-center"
                 >
                   Instagram
                 </div>
@@ -312,7 +317,7 @@
                   </svg>
                 </div>
                 <div
-                  class="col-6 text-left pl-0 ml-3 s-h6 d-flex align-items-center"
+                  class="col-6 text-left pl-0 ml-3 font16 weight700 d-flex align-items-center"
                 >
                   Maps
                 </div>
@@ -341,7 +346,7 @@
                   </svg>
                 </div>
                 <div
-                  class="col-6 text-left pl-0 ml-3 s-h6 d-flex align-items-center"
+                  class="col-6 text-left pl-0 ml-3 font16 weight700 d-flex align-items-center"
                 >
                   WhatsApp
                 </div>
@@ -477,7 +482,7 @@
                 alt="Minyak"
               />
               <div
-                class="position-absolute warna-menu text-center text-dark Poppins font-weight-bold text-uppercase"
+                class="position-absolute warna-menu text-center text-white Poppins font-weight-bold text-uppercase"
               >
                 MINYAK
               </div>
@@ -496,7 +501,7 @@
                 alt="mie-3ayam"
               />
               <div
-                class="position-absolute warna-menu text-center text-dark Poppins font-weight-bold text-uppercase"
+                class="position-absolute warna-menu text-center text-white Poppins font-weight-bold text-uppercase"
               >
                 MIE 3 AYAM
               </div>
@@ -514,7 +519,7 @@
                 alt="telur"
               />
               <div
-                class="position-absolute warna-menu text-center text-dark Poppins font-weight-bold text-uppercase"
+                class="position-absolute warna-menu text-center text-white Poppins font-weight-bold text-uppercase"
               >
                 TELUR
               </div>
@@ -579,7 +584,7 @@
         </div>
 
         <div class="row mt-4 mt-lg-5" data-aos="fade-down" data-aos-delay="100">
-          <div class="owl-carousel">
+          <div class="owl-carousel playdisplay weight900">
             <div class="item mb-4">
               <a
                 href="detail-product.html"
@@ -601,11 +606,12 @@
                   </div>
                   <div class="col-5"></div>
                 </div>
-                <p class="p-0 text-dark playdisplay sub-2 m-0 text-truncate">
-                  Menu Nasi Uduk Bu Lina
+                <p class="p-0 text-dark font16 weight800 m-0 mt-1">
+                  Nasi Uduk Kuning With Rendang Balado
                 </p>
               </div>
             </div>
+
             <div class="item mb-4">
               <a
                 href="detail-product.html"
@@ -627,11 +633,12 @@
                   </div>
                   <div class="col-5"></div>
                 </div>
-                <p class="p-0 text-dark playdisplay sub-2 m-0 text-truncate">
+                <p class="p-0 text-dark font16 weight800 m-0 mt-1">
                   Menu Nasi Uduk Bu Lina
                 </p>
               </div>
             </div>
+
             <div class="item mb-4">
               <a
                 href="detail-product.html"
@@ -653,11 +660,12 @@
                   </div>
                   <div class="col-5"></div>
                 </div>
-                <p class="p-0 text-dark playdisplay sub-2 m-0 text-truncate">
+                <p class="p-0 text-dark font16 weight800 m-0 mt-1">
                   Menu Nasi Uduk Bu Lina
                 </p>
               </div>
             </div>
+
             <div class="item mb-4">
               <a
                 href="detail-product.html"
@@ -679,7 +687,7 @@
                   </div>
                   <div class="col-5"></div>
                 </div>
-                <p class="p-0 text-dark playdisplay sub-2 m-0 text-truncate">
+                <p class="p-0 text-dark font16 weight800 m-0 mt-1">
                   Menu Nasi Uduk Bu Lina
                 </p>
               </div>
@@ -689,6 +697,7 @@
       </div>
     </section>
     <!-- End:: Section bahan masaksan -->
+
     <!-- Start::Footer -->
     <footer id="footer">
       <div class="container">
@@ -705,7 +714,7 @@
               width="260"
               class="img-fluid"
             />
-            <p class="pp3 text-white custom-alamat-footer">
+            <p class="font16 weight500 text-white custom-alamat-footer">
               Jl,Jelambar Baru Raya No.20 Depan Masjid Jami almukhislin Jakarta
               Barat 11460
             </p>
@@ -815,6 +824,7 @@
       </div>
     </footer>
     <!-- End::Footer -->
+
     <!-- Start::Navbar Js -->
     <script
       rel="preload"
@@ -822,13 +832,29 @@
       crossorigin="anonymous"
       src="https://code.jquery.com/jquery-3.6.0.js"
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      options.passive="true;"
     ></script>
     <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script
       rel="preload"
       as="script"
       crossorigin="anonymous"
       src="./js/bootstrap.js"
-    ></script>
+    ></script> -->
     <!-- End::Navbar Js -->
 
     <!-- DATA AOS -->
@@ -850,6 +876,7 @@
       crossorigin="anonymous"
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
       referrerpolicy="no-referrer"
+      options.passive="true;"
     ></script>
     <!-- Cdn-2 -->
     <script
@@ -861,6 +888,7 @@
       referrerpolicy="no-referrer"
     ></script>
     <!-- End::Cdn OwlCarousel2 -->
+
     <!-- init owl carousel -->
     <script
       rel="preload"
@@ -869,6 +897,7 @@
       src="./js/owl-carousel-slider.js"
     ></script>
 
+    <!-- Start:: PWA(Progressive Web Apps) -->
     <script
       rel="preload"
       as="script"
@@ -881,6 +910,9 @@
       crossorigin="anonymous"
       src="./sw.js"
     ></script>
+    <!-- End:: PWA(Progressive Web Apps) -->
+
+    <!-- Script Preload -->
     <script rel="preload" as="script" crossorigin="anonymous">
       $(window).on("load", function () {
         $(".loader-container").fadeOut(2000);
