@@ -71,13 +71,19 @@ html::-webkit-scrollbar-thumb {
 .text-white {
   color: var(--white);
 }
+.gap14 {
+  gap: 14px;
+}
 
 @media screen and (max-width: 600px) {
   .pamplate {
     font-size: 33px !important;
     font-weight: 800 !important;
     -webkit-text-stroke-width: 1.2px !important;
-    text-shadow: -2px -1px 1px rgb(54, 54, 54) !important;
+    text-shadow: -2px -1px 0px rgb(54, 54, 54) !important;
+  }
+  .isi-deskripsi {
+    font-size: 14px !important;
   }
 }
 .pamplate {
@@ -86,7 +92,7 @@ html::-webkit-scrollbar-thumb {
   color: var(--secondary-dark2);
   -webkit-text-stroke-width: 2.4px;
   -webkit-text-stroke-color: rgb(54, 54, 54);
-  text-shadow: -3px -2px 1px rgb(54, 54, 54);
+  text-shadow: -3px -2px 0px rgb(54, 54, 54);
 }
 
 .isi-deskripsi {

@@ -15,11 +15,17 @@
     border: 5px solid;
     transition: all 0.3s linear ease;
   }
+  #slider-wrap .carousel-item h2 {
+    font-size: 24px !important;
+  }
+  #slider-wrap .carousel-item p {
+    font-size: 14px !important;
+  }
 }
 
 #slider-wrap .carousel-item {
   width: 100%;
-  aspect-ratio: 16 / 8;
+  aspect-ratio: 16 / 7;
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -104,3 +110,4 @@
   border-color: var(--white);
   transform: scale(1.1);
 }
+

@@ -19,11 +19,22 @@
   overflow: auto;
   overflow-y: hidden;
 }
-
+.padingcustom::-webkit-scrollbar {
+  height: 10px !important;
+  width: 10px;
+}
+.padingcustom::-webkit-scrollbar-thumb {
+  background-color: rgba(67, 67, 67, 0.194);
+  border-radius: 50px 50px 50px 50px;
+  height: 10px !important;
+  width: 10px;
+}
 .padingcustom {
   padding: 32px 24px 42px 24px;
   width: 248px;
   height: 308px;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 .cardReview {
   border-radius: 8px;
