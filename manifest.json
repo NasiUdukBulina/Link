@@ -28,10 +28,10 @@
       "purpose": "maskable"
     }
   ],
-  "start_url": "/",
+  "start_url": ".",
   "background_color": "#ffb800",
   "display": "standalone",
-  "scope": "/",
+  "scope": ".",
   "theme_color": "#ffb800",
   "orientation": "portrait"
 }
