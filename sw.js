@@ -1,5 +1,5 @@
 self.addEventListener("install", (event) => {
-  const cacheKey = "Nasi-Uduk-Cache-v2";
+  const cacheKey = "Nasi-Uduk-Cache-v3";
 
   event.waitUntil(
     caches.open(cacheKey).then((cache) => {
@@ -31,7 +31,7 @@ self.addEventListener("install", (event) => {
   );
 });
 
-const cacheName = "Nasi-Uduk-Cache-v2";
+const cacheName = "Nasi-Uduk-Cache-v3";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(cacheName));
