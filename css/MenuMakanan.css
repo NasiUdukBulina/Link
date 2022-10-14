@@ -45,6 +45,14 @@ li.nav-item.menu-li.d-flex.align-items-center {
   .card-menu-makanan {
     width: 43% !important;
   }
+  .isi-menu-kami {
+    width: 77px !important;
+  }
+}
+@media screen and (min-width: 900px) {
+  .isi-menu-kami {
+    width: 107px !important;
+  }
 }
 
 .overslider {
@@ -61,9 +69,15 @@ li.nav-item.menu-li.d-flex.align-items-center {
     inset 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.img-riview {
+.img-content-menu {
   width: 100%;
   object-fit: cover;
   aspect-ratio: 1/1;
   border-radius: 8px;
+}
+
+.isi-menu-kami {
+  margin-top: 0 !important;
+  margin: auto;
+  width: 186px;
 }

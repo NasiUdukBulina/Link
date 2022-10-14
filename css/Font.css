@@ -20,7 +20,7 @@
 .weight500 {
   font-weight: 500 !important;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .font64 {
     font-size: 46px !important;
   }
@@ -40,6 +40,7 @@
     font-size: 12px !important;
   }
 }
+
 .font64 {
   font-size: 64px;
 }

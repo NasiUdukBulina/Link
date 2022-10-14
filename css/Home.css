@@ -59,6 +59,17 @@ html::-webkit-scrollbar-thumb {
   height: 20px;
 }
 
+.warnatet {
+  display: flex;
+  align-items: center;
+  background-color: var(--background);
+}
+.name-riview {
+  font-size: 42px;
+  color: var(--white);
+  font-weight: 800;
+}
+
 .text-black1 {
   color: var(--tc-black1) !important;
 }
@@ -71,6 +82,11 @@ html::-webkit-scrollbar-thumb {
 .text-white {
   color: var(--white);
 }
+
+.nav-item .active {
+  color: var(--tc-black1) !important;
+}
+
 .gap14 {
   gap: 14px;
 }
@@ -108,4 +124,18 @@ html::-webkit-scrollbar-thumb {
 /* LOKASI / MAPS */
 #lokasi {
   background: var(--background);
+}
+
+.truncate-name {
+  white-space: nowrap;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.truncate3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
