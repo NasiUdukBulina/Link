@@ -88,7 +88,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .gap14 {
-  gap: 14px;
+  gap: 16px;
 }
 
 @media screen and (max-width: 600px) {
