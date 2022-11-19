@@ -1,9 +1,5 @@
 /* Layanan Kami */
 
-#layanan-kami {
-  background-color: var(--background);
-}
-
 .card-layanan {
   color: var(--white);
 }

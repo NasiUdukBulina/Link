@@ -1,0 +1,16 @@
+/* Gallery */
+#online-order {
+  padding-top: 32px;
+  padding-bottom: 72px;
+}
+
+img.rounded-img {
+  border-radius: 16px;
+}
+
+.ratio-landscape {
+  aspect-ratio: auto !important;
+}
+.justify-content-spacearound {
+  justify-content: space-around !important;
+}

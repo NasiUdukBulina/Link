@@ -29,6 +29,9 @@ html {
   scrollbar-width: thin; /* "auto" or "thin" */
   scrollbar-color: #ff9900 rgb(242, 242, 242); /* scroll thumb and track */
 }
+.bg-latar {
+  background-color: var(--background);
+}
 
 .secondary-dark {
   color: var(--secondary-dark);
@@ -95,8 +98,14 @@ html::-webkit-scrollbar-thumb {
   color: var(--tc-black1) !important;
 }
 
+@media screen and (max-width: 600px) {
+  .gap14 {
+    gap: 8px !important;
+  }
+}
+
 .gap14 {
-  gap: 14px;
+  gap: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -130,9 +139,6 @@ html::-webkit-scrollbar-thumb {
 }
 
 /* LOKASI / MAPS */
-#lokasi {
-  background: var(--background);
-}
 
 .truncate-name {
   white-space: nowrap;

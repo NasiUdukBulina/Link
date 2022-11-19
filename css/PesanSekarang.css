@@ -1,8 +1,4 @@
 /* Pesan Sekarang */
-#pesan-sekarang {
-  background-color: var(--background);
-}
-
 @media screen and (max-width: 600px) {
   .card-pesan-sekarang .card-hover-layanan {
     padding: 10px !important;

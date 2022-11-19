@@ -1,7 +1,4 @@
 /* Hero */
-#hero {
-  background-color: var(--background);
-}
 
 .button-link-custom {
   background-color: var(--primary-orange2);
